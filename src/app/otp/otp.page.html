@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Varify</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="center">
+
+
+  
+  <form [formGroup]="OTPform" (ngSubmit)="sendOTP()" class="center" >
+  <ion-card class="card">
+    <ion-card-header>
+      <ion-card-subtitle>REQUEST OTP</ion-card-subtitle>
+      <ion-card-title>Email</ion-card-title>
+    </ion-card-header>
+  
+
+        <ion-item>
+          <ion-input placeholder="example@email.com" formControlName="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-button type="submit" color="secondary">SEND</ion-button>
+        </ion-item>
+  </ion-card>
+</form>
+
+</ion-content>

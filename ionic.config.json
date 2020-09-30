@@ -1,0 +1,7 @@
+{
+  "name": "chatter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
